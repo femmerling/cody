@@ -1,0 +1,59 @@
+# Swap, backup, and undo files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.un~
+
+# Vim backup and undo directories
+.vimbackup/
+.vimtmp/
+.vimundo/
+
+# Plugin manager directories (for Vundle/Pathogen/Plug)
+bundle/*
+pack/*
+plugged/*
+
+# If you're using Vundle, and `bundle` is tracked:
+# Uncomment this if you keep your plugins externally
+# !bundle/your-plugin-name/
+
+# Node.js or npm artifacts (if you're building with frontend tools)
+node_modules/
+dist/
+build/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Compiled binaries / shared libraries
+*.o
+*.so
+*.dll
+*.exe
+*.out
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.log
+
+# Test and coverage outputs
+coverage/
+*.lcov
+test-results/
+
+# Tag files
+tags
+TAGS
+
+# Generated docs
+doc/tags
+doc/*.tmp
+
